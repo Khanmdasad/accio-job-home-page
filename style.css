@@ -1,12 +1,12 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .wrapper{
-position: relative;
-min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
 .nav{
@@ -23,31 +23,31 @@ min-height: 100vh;
 }
 
 .logo-container{
-margin: 10px;
+    margin: 10px;
 }
 
 .logo{
-font-weight: 900;
-font-size: 20px;
-text-align: center;
-text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .logo-img{
-width: 80px;
+    width: 80px;
 }
 
 .list{
     display: flex;
-align-items: center;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
-text-align: center;
+    text-align: center;
 }
 
 .list a{
     margin: 18px;
-color: black;
+    color: black;
     text-decoration: none;
 }
 
@@ -56,48 +56,62 @@ li{
 }
 
 .list li .btn{
-font-style: italic;
-padding: 3px 20px;
-border: 1px solid #2F80ED;
+    font-style: italic;
+    padding: 3px 20px;
+    border: 1px solid #2F80ED;
 }
 
 
 .annoucement{
-position: relative;  
-background-color: #2F80ED;
-color: #ffffff;
-text-align: center;
+    position: relative;  
+    background-color: #2F80ED;
+    color: #ffffff;
+    text-align: center;
 }
 
 
 .hero{
-width: 100vw;
-height: 100vh;  
-display: flex;
-justify-content: center;
-align-item: center;
-padding: 50px
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
 }
 
 .left{
-padding: 20px;
-width: 70vw;
+    padding: 20px;
+    width: 70vw;
 }
 
 .text{
-fony-family: ABeeZee;
-font-style: italic;
+    font-family: ABeeZee;
+    font-style: italic;
+    width: 45vw;
 }
 
 .text p{
-opacity: 0.6;
-font-style: normal;
-width: 40vw;
+    opacity: 0.6;
+    font-style: normal;
+    width: 40vw;
 }
 
 .right{
     box-shadow: 1px  1px 1px 1px gray;
     border-radius: 20px;
-    width: 30vw;
-    height: 50vh
+    width: 40vw;
+    height: 50vh;
+    padding: 50px;
 }
+
+
+/* card-container */
+.course{
+    background-color: #ADD8E6;
+    height: 100vh;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
