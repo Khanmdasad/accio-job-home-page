@@ -110,15 +110,38 @@ li{
     background-color: #ADD8E6;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 }
 
 .card{
+    margin: 20px;
+    height: 50vh;
+    width: 40vw;
     padding: 20px;
+}
+
+.card h3{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-item{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.card-item p{
+    margin: 0px 40px;
 }
